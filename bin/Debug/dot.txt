@@ -1,0 +1,5 @@
+digraph G {       start [shape=Mdiamond label="Grafica"];      start->Oceania;
+      start->America;
+      start->Asia;
+      start->Europa;
+}

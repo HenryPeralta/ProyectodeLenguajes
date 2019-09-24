@@ -1,0 +1,25 @@
+digraph G {       start [shape=Mdiamond label="Grafica"];      start-> ASIA ;
+       ASIA -> JAP�N ;
+       JAP�N [shape=record label="{  JAP�N  | 80}"style=filled fillcolor=" #ff3300  "];
+       ASIA -> CHINA ;
+       CHINA [shape=record label="{  CHINA  | 95}"style=filled fillcolor=" #ff3300  "];
+       ASIA -> KOREA ;
+       KOREA [shape=record label="{  KOREA  | 40}"style=filled fillcolor=" #00ff00  "];
+       ASIA [shape=record label="{  ASIA | 71}"style=filled fillcolor=" #ff9933  "];
+      start-> EUROPA ;
+       EUROPA -> ESPAÑA ;
+       ESPAÑA [shape=record label="{  ESPAÑA  | 80}"style=filled fillcolor=" #ff3300  "];
+       EUROPA -> ITALIA ;
+       ITALIA [shape=record label="{  ITALIA  | 95}"style=filled fillcolor=" #ff3300  "];
+       EUROPA -> FRANCIA ;
+       FRANCIA [shape=record label="{  FRANCIA  | 40}"style=filled fillcolor=" #00ff00  "];
+       EUROPA [shape=record label="{  EUROPA | 71}"style=filled fillcolor=" #ff9933  "];
+      start-> AMERICA ;
+       AMERICA -> CANADA ;
+       CANADA [shape=record label="{  CANADA  | 65}"style=filled fillcolor=" #ff9933  "];
+       AMERICA -> GUATEMALA ;
+       GUATEMALA [shape=record label="{  GUATEMALA  | 40}"style=filled fillcolor=" #00ff00  "];
+       AMERICA -> CHILE ;
+       CHILE [shape=record label="{  CHILE  | 60}"style=filled fillcolor=" #ffff00  "];
+       AMERICA [shape=record label="{  AMERICA | 55}"style=filled fillcolor=" #ffff00  "];
+}
